@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="Guerra Italo-Turca 1911-1912" version="1.0.0"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <triplea minimumVersion="2.5"/>
+  <diceSides value="6"/>
+  <map>
+    <territory name="Italia Centrale"/>
+    <territory name="Italia Meridionale"/>
+    <territory name="Sicilia"/>
+    <territory name="Sardegna"/>
+    <territory name="Eritrea"/>
+    <territory name="Zuara"/>
+    <territory name="Tripoli"/>
+    <territory name="Homs"/>
+    <territory name="Misurata"/>
+    <territory name="Gebel Nefusa"/>
+    <territory name="Ghadames"/>
+    <territory name="Sirte"/>
+    <territory name="Giofra"/>
+    <territory name="Fezzan"/>
+    <territory name="Agedabia"/>
+    <territory name="Bengasi"/>
+    <territory name="Gebel Akhdar"/>
+    <territory name="Derna"/>
+    <territory name="Tobruk"/>
+    <territory name="Giarabub"/>
+    <territory name="Gialo"/>
+    <territory name="Cufra"/>
+    <territory name="Costantinopoli"/>
+    <territory name="Tracia"/>
+    <territory name="Macedonia"/>
+    <territory name="Albania"/>
+    <territory name="Smirne"/>
+    <territory name="Adalia"/>
+    <territory name="Anatolia"/>
+    <territory name="Ponto"/>
+    <territory name="Armenia"/>
+    <territory name="Cilicia"/>
+    <territory name="Kurdistan"/>
+    <territory name="Aleppo"/>
+    <territory name="Damasco"/>
+    <territory name="Gerusalemme"/>
+    <territory name="Mosul"/>
+    <territory name="Baghdad"/>
+    <territory name="Medina"/>
+    <territory name="Mecca"/>
+    <territory name="Asir"/>
+    <territory name="Hodeida"/>
+    <territory name="Sana'a"/>
+    <territory name="Rodi"/>
+    <territory name="Dodecaneso"/>
+    <territory name="Lesbo"/>
+    <territory name="Chio"/>
+    <territory name="Africa Centrale"/>
+    <territory name="Algeria"/>
+    <territory name="Austria-Ungheria"/>
+    <territory name="Bulgaria"/>
+    <territory name="Caucaso Russo"/>
+    <territory name="Cipro"/>
+    <territory name="Corsica"/>
+    <territory name="Creta"/>
+    <territory name="Egitto"/>
+    <territory name="Etiopia"/>
+    <territory name="Grecia"/>
+    <territory name="Montenegro"/>
+    <territory name="Neged"/>
+    <territory name="Persia"/>
+    <territory name="Serbia"/>
+    <territory name="Somalia Francese"/>
+    <territory name="Sudan"/>
+    <territory name="Tunisia"/>
+    <territory name="Mar Tirreno" water="true"/>
+    <territory name="Canale di Sicilia" water="true"/>
+    <territory name="Mare di Malta" water="true"/>
+    <territory name="Mare di Tripoli" water="true"/>
+    <territory name="Golfo della Sirte" water="true"/>
+    <territory name="Mare di Bengasi" water="true"/>
+    <territory name="Mare di Derna" water="true"/>
+    <territory name="Mare di Tobruk" water="true"/>
+    <territory name="Mar Libico" water="true"/>
+    <territory name="Mar Ionio" water="true"/>
+    <territory name="Ionio Meridionale" water="true"/>
+    <territory name="Canale d'Otranto" water="true"/>
+    <territory name="Egeo Meridionale" water="true"/>
+    <territory name="Mare del Dodecaneso" water="true"/>
+    <territory name="Egeo Centrale" water="true"/>
+    <territory name="Egeo Settentrionale" water="true"/>
+    <territory name="Dardanelli" water="true"/>
+    <territory name="Mar di Marmara" water="true"/>
+    <territory name="Mar Nero" water="true"/>
+    <territory name="Mare di Alessandria" water="true"/>
+    <territory name="Mar di Levante" water="true"/>
+    <territory name="Mare di Cipro" water="true"/>
+    <territory name="Costa Siriana" water="true"/>
+    <territory name="Mar Rosso Settentrionale" water="true"/>
+    <territory name="Mar Rosso Centrale" water="true"/>
+    <territory name="Mar Rosso Meridionale" water="true"/>
+    <territory name="Golfo di Aden" water="true"/>
+    <connection t1="Adalia" t2="Anatolia"/>
+    <connection t1="Adalia" t2="Mare del Dodecaneso"/>
+    <connection t1="Adalia" t2="Mare di Cipro"/>
+    <connection t1="Adalia" t2="Smirne"/>
+    <connection t1="Africa Centrale" t2="Algeria"/>
+    <connection t1="Africa Centrale" t2="Cufra"/>
+    <connection t1="Africa Centrale" t2="Fezzan"/>
+    <connection t1="Africa Centrale" t2="Sudan"/>
+    <connection t1="Agedabia" t2="Bengasi"/>
+    <connection t1="Agedabia" t2="Gebel Akhdar"/>
+    <connection t1="Agedabia" t2="Gialo"/>
+    <connection t1="Agedabia" t2="Giofra"/>
+    <connection t1="Agedabia" t2="Golfo della Sirte"/>
+    <connection t1="Agedabia" t2="Sirte"/>
+    <connection t1="Albania" t2="Canale d'Otranto"/>
+    <connection t1="Albania" t2="Grecia"/>
+    <connection t1="Albania" t2="Macedonia"/>
+    <connection t1="Albania" t2="Montenegro"/>
+    <connection t1="Aleppo" t2="Cilicia"/>
+    <connection t1="Aleppo" t2="Costa Siriana"/>
+    <connection t1="Aleppo" t2="Damasco"/>
+    <connection t1="Aleppo" t2="Kurdistan"/>
+    <connection t1="Aleppo" t2="Mosul"/>
+    <connection t1="Algeria" t2="Canale di Sicilia"/>
+    <connection t1="Algeria" t2="Fezzan"/>
+    <connection t1="Algeria" t2="Ghadames"/>
+    <connection t1="Algeria" t2="Tunisia"/>
+    <connection t1="Anatolia" t2="Cilicia"/>
+    <connection t1="Anatolia" t2="Costantinopoli"/>
+    <connection t1="Anatolia" t2="Mar Nero"/>
+    <connection t1="Anatolia" t2="Mare di Cipro"/>
+    <connection t1="Anatolia" t2="Ponto"/>
+    <connection t1="Anatolia" t2="Smirne"/>
+    <connection t1="Armenia" t2="Caucaso Russo"/>
+    <connection t1="Armenia" t2="Kurdistan"/>
+    <connection t1="Armenia" t2="Mosul"/>
+    <connection t1="Armenia" t2="Persia"/>
+    <connection t1="Armenia" t2="Ponto"/>
+    <connection t1="Asir" t2="Hodeida"/>
+    <connection t1="Asir" t2="Mar Rosso Meridionale"/>
+    <connection t1="Asir" t2="Mecca"/>
+    <connection t1="Asir" t2="Neged"/>
+    <connection t1="Asir" t2="Sana'a"/>
+    <connection t1="Austria-Ungheria" t2="Canale d'Otranto"/>
+    <connection t1="Austria-Ungheria" t2="Montenegro"/>
+    <connection t1="Baghdad" t2="Damasco"/>
+    <connection t1="Baghdad" t2="Mosul"/>
+    <connection t1="Baghdad" t2="Neged"/>
+    <connection t1="Bengasi" t2="Gebel Akhdar"/>
+    <connection t1="Bengasi" t2="Golfo della Sirte"/>
+    <connection t1="Bengasi" t2="Mare di Bengasi"/>
+    <connection t1="Bulgaria" t2="Macedonia"/>
+    <connection t1="Bulgaria" t2="Mar di Marmara"/>
+    <connection t1="Bulgaria" t2="Serbia"/>
+    <connection t1="Bulgaria" t2="Tracia"/>
+    <connection t1="Canale d'Otranto" t2="Grecia"/>
+    <connection t1="Canale d'Otranto" t2="Ionio Meridionale"/>
+    <connection t1="Canale d'Otranto" t2="Italia Centrale"/>
+    <connection t1="Canale d'Otranto" t2="Italia Meridionale"/>
+    <connection t1="Canale d'Otranto" t2="Mar Ionio"/>
+    <connection t1="Canale d'Otranto" t2="Montenegro"/>
+    <connection t1="Canale di Sicilia" t2="Mar Tirreno"/>
+    <connection t1="Canale di Sicilia" t2="Mare di Malta"/>
+    <connection t1="Canale di Sicilia" t2="Mare di Tripoli"/>
+    <connection t1="Canale di Sicilia" t2="Sardegna"/>
+    <connection t1="Canale di Sicilia" t2="Sicilia"/>
+    <connection t1="Canale di Sicilia" t2="Tunisia"/>
+    <connection t1="Caucaso Russo" t2="Mar Nero"/>
+    <connection t1="Caucaso Russo" t2="Persia"/>
+    <connection t1="Chio" t2="Egeo Centrale"/>
+    <connection t1="Cilicia" t2="Costa Siriana"/>
+    <connection t1="Cilicia" t2="Kurdistan"/>
+    <connection t1="Cilicia" t2="Mare di Cipro"/>
+    <connection t1="Cilicia" t2="Ponto"/>
+    <connection t1="Cipro" t2="Costa Siriana"/>
+    <connection t1="Cipro" t2="Mar di Levante"/>
+    <connection t1="Cipro" t2="Mare di Cipro"/>
+    <connection t1="Corsica" t2="Mar Tirreno"/>
+    <connection t1="Costa Siriana" t2="Damasco"/>
+    <connection t1="Costa Siriana" t2="Egitto"/>
+    <connection t1="Costa Siriana" t2="Gerusalemme"/>
+    <connection t1="Costa Siriana" t2="Mar di Levante"/>
+    <connection t1="Costa Siriana" t2="Mare di Alessandria"/>
+    <connection t1="Costa Siriana" t2="Mare di Cipro"/>
+    <connection t1="Costantinopoli" t2="Mar Nero"/>
+    <connection t1="Costantinopoli" t2="Mar di Marmara"/>
+    <connection t1="Costantinopoli" t2="Smirne"/>
+    <connection t1="Creta" t2="Egeo Meridionale"/>
+    <connection t1="Creta" t2="Mar Libico"/>
+    <connection t1="Creta" t2="Mare del Dodecaneso"/>
+    <connection t1="Creta" t2="Mare di Derna"/>
+    <connection t1="Cufra" t2="Egitto"/>
+    <connection t1="Cufra" t2="Fezzan"/>
+    <connection t1="Cufra" t2="Gialo"/>
+    <connection t1="Cufra" t2="Giarabub"/>
+    <connection t1="Cufra" t2="Sudan"/>
+    <connection t1="Damasco" t2="Gerusalemme"/>
+    <connection t1="Damasco" t2="Medina"/>
+    <connection t1="Damasco" t2="Mosul"/>
+    <connection t1="Damasco" t2="Neged"/>
+    <connection t1="Dardanelli" t2="Egeo Centrale"/>
+    <connection t1="Dardanelli" t2="Egeo Settentrionale"/>
+    <connection t1="Dardanelli" t2="Lesbo"/>
+    <connection t1="Dardanelli" t2="Mar di Marmara"/>
+    <connection t1="Dardanelli" t2="Smirne"/>
+    <connection t1="Dardanelli" t2="Tracia"/>
+    <connection t1="Derna" t2="Gebel Akhdar"/>
+    <connection t1="Derna" t2="Gialo"/>
+    <connection t1="Derna" t2="Giarabub"/>
+    <connection t1="Derna" t2="Mare di Derna"/>
+    <connection t1="Derna" t2="Tobruk"/>
+    <connection t1="Dodecaneso" t2="Mare del Dodecaneso"/>
+    <connection t1="Egeo Centrale" t2="Egeo Meridionale"/>
+    <connection t1="Egeo Centrale" t2="Egeo Settentrionale"/>
+    <connection t1="Egeo Centrale" t2="Grecia"/>
+    <connection t1="Egeo Centrale" t2="Lesbo"/>
+    <connection t1="Egeo Centrale" t2="Mare del Dodecaneso"/>
+    <connection t1="Egeo Centrale" t2="Smirne"/>
+    <connection t1="Egeo Meridionale" t2="Grecia"/>
+    <connection t1="Egeo Meridionale" t2="Ionio Meridionale"/>
+    <connection t1="Egeo Meridionale" t2="Mare del Dodecaneso"/>
+    <connection t1="Egeo Meridionale" t2="Mare di Derna"/>
+    <connection t1="Egeo Settentrionale" t2="Grecia"/>
+    <connection t1="Egeo Settentrionale" t2="Macedonia"/>
+    <connection t1="Egeo Settentrionale" t2="Tracia"/>
+    <connection t1="Egitto" t2="Gerusalemme"/>
+    <connection t1="Egitto" t2="Giarabub"/>
+    <connection t1="Egitto" t2="Mar Rosso Centrale"/>
+    <connection t1="Egitto" t2="Mar Rosso Settentrionale"/>
+    <connection t1="Egitto" t2="Mare di Alessandria"/>
+    <connection t1="Egitto" t2="Mare di Tobruk"/>
+    <connection t1="Egitto" t2="Sudan"/>
+    <connection t1="Egitto" t2="Tobruk"/>
+    <connection t1="Eritrea" t2="Etiopia"/>
+    <connection t1="Eritrea" t2="Golfo di Aden"/>
+    <connection t1="Eritrea" t2="Mar Rosso Meridionale"/>
+    <connection t1="Eritrea" t2="Somalia Francese"/>
+    <connection t1="Eritrea" t2="Sudan"/>
+    <connection t1="Etiopia" t2="Somalia Francese"/>
+    <connection t1="Etiopia" t2="Sudan"/>
+    <connection t1="Fezzan" t2="Ghadames"/>
+    <connection t1="Fezzan" t2="Gialo"/>
+    <connection t1="Fezzan" t2="Giofra"/>
+    <connection t1="Gebel Akhdar" t2="Gialo"/>
+    <connection t1="Gebel Akhdar" t2="Mare di Bengasi"/>
+    <connection t1="Gebel Akhdar" t2="Mare di Derna"/>
+    <connection t1="Gebel Nefusa" t2="Ghadames"/>
+    <connection t1="Gebel Nefusa" t2="Giofra"/>
+    <connection t1="Gebel Nefusa" t2="Homs"/>
+    <connection t1="Gebel Nefusa" t2="Misurata"/>
+    <connection t1="Gebel Nefusa" t2="Tripoli"/>
+    <connection t1="Gebel Nefusa" t2="Tunisia"/>
+    <connection t1="Gebel Nefusa" t2="Zuara"/>
+    <connection t1="Gerusalemme" t2="Mar Rosso Settentrionale"/>
+    <connection t1="Gerusalemme" t2="Medina"/>
+    <connection t1="Ghadames" t2="Giofra"/>
+    <connection t1="Ghadames" t2="Tunisia"/>
+    <connection t1="Gialo" t2="Giarabub"/>
+    <connection t1="Gialo" t2="Giofra"/>
+    <connection t1="Giarabub" t2="Tobruk"/>
+    <connection t1="Giofra" t2="Misurata"/>
+    <connection t1="Giofra" t2="Sirte"/>
+    <connection t1="Golfo della Sirte" t2="Ionio Meridionale"/>
+    <connection t1="Golfo della Sirte" t2="Mare di Bengasi"/>
+    <connection t1="Golfo della Sirte" t2="Mare di Malta"/>
+    <connection t1="Golfo della Sirte" t2="Mare di Tripoli"/>
+    <connection t1="Golfo della Sirte" t2="Misurata"/>
+    <connection t1="Golfo della Sirte" t2="Sirte"/>
+    <connection t1="Golfo di Aden" t2="Hodeida"/>
+    <connection t1="Golfo di Aden" t2="Mar Rosso Meridionale"/>
+    <connection t1="Golfo di Aden" t2="Sana'a"/>
+    <connection t1="Golfo di Aden" t2="Somalia Francese"/>
+    <connection t1="Grecia" t2="Ionio Meridionale"/>
+    <connection t1="Grecia" t2="Macedonia"/>
+    <connection t1="Hodeida" t2="Mar Rosso Meridionale"/>
+    <connection t1="Hodeida" t2="Sana'a"/>
+    <connection t1="Homs" t2="Mare di Tripoli"/>
+    <connection t1="Homs" t2="Misurata"/>
+    <connection t1="Homs" t2="Tripoli"/>
+    <connection t1="Ionio Meridionale" t2="Mar Ionio"/>
+    <connection t1="Ionio Meridionale" t2="Mare di Bengasi"/>
+    <connection t1="Ionio Meridionale" t2="Mare di Derna"/>
+    <connection t1="Ionio Meridionale" t2="Mare di Malta"/>
+    <connection t1="Italia Centrale" t2="Italia Meridionale"/>
+    <connection t1="Italia Centrale" t2="Mar Tirreno"/>
+    <connection t1="Italia Meridionale" t2="Mar Ionio"/>
+    <connection t1="Italia Meridionale" t2="Mar Tirreno"/>
+    <connection t1="Italia Meridionale" t2="Mare di Malta"/>
+    <connection t1="Italia Meridionale" t2="Sicilia"/>
+    <connection t1="Kurdistan" t2="Mosul"/>
+    <connection t1="Kurdistan" t2="Ponto"/>
+    <connection t1="Macedonia" t2="Montenegro"/>
+    <connection t1="Macedonia" t2="Serbia"/>
+    <connection t1="Macedonia" t2="Tracia"/>
+    <connection t1="Mar Ionio" t2="Mare di Malta"/>
+    <connection t1="Mar Libico" t2="Mar di Levante"/>
+    <connection t1="Mar Libico" t2="Mare del Dodecaneso"/>
+    <connection t1="Mar Libico" t2="Mare di Derna"/>
+    <connection t1="Mar Libico" t2="Mare di Tobruk"/>
+    <connection t1="Mar Nero" t2="Mar di Marmara"/>
+    <connection t1="Mar Nero" t2="Ponto"/>
+    <connection t1="Mar Rosso Centrale" t2="Mar Rosso Meridionale"/>
+    <connection t1="Mar Rosso Centrale" t2="Mar Rosso Settentrionale"/>
+    <connection t1="Mar Rosso Centrale" t2="Mecca"/>
+    <connection t1="Mar Rosso Centrale" t2="Medina"/>
+    <connection t1="Mar Rosso Centrale" t2="Sudan"/>
+    <connection t1="Mar Rosso Meridionale" t2="Mecca"/>
+    <connection t1="Mar Rosso Meridionale" t2="Sudan"/>
+    <connection t1="Mar Rosso Settentrionale" t2="Mar di Levante"/>
+    <connection t1="Mar Rosso Settentrionale" t2="Medina"/>
+    <connection t1="Mar Tirreno" t2="Mare di Malta"/>
+    <connection t1="Mar Tirreno" t2="Sardegna"/>
+    <connection t1="Mar Tirreno" t2="Sicilia"/>
+    <connection t1="Mar di Levante" t2="Mare del Dodecaneso"/>
+    <connection t1="Mar di Levante" t2="Mare di Alessandria"/>
+    <connection t1="Mar di Levante" t2="Mare di Cipro"/>
+    <connection t1="Mar di Levante" t2="Mare di Tobruk"/>
+    <connection t1="Mar di Marmara" t2="Smirne"/>
+    <connection t1="Mar di Marmara" t2="Tracia"/>
+    <connection t1="Mare del Dodecaneso" t2="Mare di Cipro"/>
+    <connection t1="Mare del Dodecaneso" t2="Rodi"/>
+    <connection t1="Mare del Dodecaneso" t2="Smirne"/>
+    <connection t1="Mare di Alessandria" t2="Mare di Tobruk"/>
+    <connection t1="Mare di Bengasi" t2="Mare di Derna"/>
+    <connection t1="Mare di Derna" t2="Mare di Tobruk"/>
+    <connection t1="Mare di Derna" t2="Tobruk"/>
+    <connection t1="Mare di Malta" t2="Mare di Tripoli"/>
+    <connection t1="Mare di Malta" t2="Sicilia"/>
+    <connection t1="Mare di Tobruk" t2="Tobruk"/>
+    <connection t1="Mare di Tripoli" t2="Misurata"/>
+    <connection t1="Mare di Tripoli" t2="Tripoli"/>
+    <connection t1="Mare di Tripoli" t2="Tunisia"/>
+    <connection t1="Mare di Tripoli" t2="Zuara"/>
+    <connection t1="Mecca" t2="Medina"/>
+    <connection t1="Mecca" t2="Neged"/>
+    <connection t1="Medina" t2="Neged"/>
+    <connection t1="Misurata" t2="Sirte"/>
+    <connection t1="Montenegro" t2="Serbia"/>
+    <connection t1="Mosul" t2="Persia"/>
+    <connection t1="Neged" t2="Sana'a"/>
+    <connection t1="Tripoli" t2="Zuara"/>
+    <connection t1="Tunisia" t2="Zuara"/>
+  </map>
+  <resourceList>
+    <resource name="PUs"/>
+  </resourceList>
+  <playerList>
+    <player name="Italiani" optional="false"/>
+    <player name="Ottomani" optional="false"/>
+    <player name="Senussi" optional="false"/>
+    <alliance player="Italiani" alliance="Italia"/>
+    <alliance player="Ottomani" alliance="Sublime Porta"/>
+    <alliance player="Senussi" alliance="Sublime Porta"/>
+  </playerList>
+  <unitList>
+    <unit name="fanteria"/>
+    <unit name="bersaglieri"/>
+    <unit name="ascari"/>
+    <unit name="irregolari"/>
+    <unit name="guerriglieri"/>
+    <unit name="artiglieria"/>
+    <unit name="cavalleria"/>
+    <unit name="mehari"/>
+    <unit name="aeroplano"/>
+    <unit name="dirigibile"/>
+    <unit name="corazzata"/>
+    <unit name="incrociatore"/>
+    <unit name="torpediniera"/>
+    <unit name="cannoniera"/>
+    <unit name="trasporto"/>
+    <unit name="fabbrica"/>
+    <unit name="campo"/>
+  </unitList>
+  <territoryEffectList>
+    <territoryEffect name="Deserto"/>
+    <territoryEffect name="Gebel"/>
+  </territoryEffectList>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+    <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+    <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+    <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+      <step name="italianBid" delegate="bid" player="Italiani" maxRunCount="1"/>
+      <step name="italianBidPlace" delegate="placeBid" player="Italiani" maxRunCount="1"/>
+      <step name="ottomanBid" delegate="bid" player="Ottomani" maxRunCount="1"/>
+      <step name="ottomanBidPlace" delegate="placeBid" player="Ottomani" maxRunCount="1"/>
+      <step name="senussiBid" delegate="bid" player="Senussi" maxRunCount="1"/>
+      <step name="senussiBidPlace" delegate="placeBid" player="Senussi" maxRunCount="1"/>
+      <step name="italianPurchase" delegate="purchase" player="Italiani"/>
+      <step name="italianCombatMove" delegate="move" player="Italiani"/>
+      <step name="italianBattle" delegate="battle" player="Italiani"/>
+      <step name="italianNonCombatMove" delegate="move" player="Italiani" display="Non Combat Move"/>
+      <step name="italianPlace" delegate="place" player="Italiani"/>
+      <step name="italianEndTurn" delegate="endTurn" player="Italiani"/>
+      <step name="ottomanPurchase" delegate="purchase" player="Ottomani"/>
+      <step name="ottomanCombatMove" delegate="move" player="Ottomani"/>
+      <step name="ottomanBattle" delegate="battle" player="Ottomani"/>
+      <step name="ottomanNonCombatMove" delegate="move" player="Ottomani" display="Non Combat Move"/>
+      <step name="ottomanPlace" delegate="place" player="Ottomani"/>
+      <step name="ottomanEndTurn" delegate="endTurn" player="Ottomani"/>
+      <step name="senussiPurchase" delegate="purchase" player="Senussi"/>
+      <step name="senussiCombatMove" delegate="move" player="Senussi"/>
+      <step name="senussiBattle" delegate="battle" player="Senussi"/>
+      <step name="senussiNonCombatMove" delegate="move" player="Senussi" display="Non Combat Move"/>
+      <step name="senussiPlace" delegate="place" player="Senussi"/>
+      <step name="senussiEndTurn" delegate="endTurn" player="Senussi"/>
+      <step name="endRoundStep" delegate="endRound"/>
+    </sequence>
+  </gamePlay>
+  <production>
+    <productionRule name="buy_fanteria">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="fanteria" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_bersaglieri">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="bersaglieri" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_ascari">
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="ascari" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_irregolari">
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="irregolari" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_guerriglieri">
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="guerriglieri" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_artiglieria">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artiglieria" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_cavalleria">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="cavalleria" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_mehari">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="mehari" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_aeroplano">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="aeroplano" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_dirigibile">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="dirigibile" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_corazzata">
+      <cost resource="PUs" quantity="20"/>
+      <result resourceOrUnit="corazzata" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_incrociatore">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="incrociatore" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_torpediniera">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="torpediniera" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_cannoniera">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="cannoniera" quantity="1"/>
+    </productionRule>
+    <productionRule name="buy_trasporto">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="trasporto" quantity="1"/>
+    </productionRule>
+    <productionFrontier name="produzioneItaliani">
+      <frontierRules name="buy_fanteria"/>
+      <frontierRules name="buy_bersaglieri"/>
+      <frontierRules name="buy_ascari"/>
+      <frontierRules name="buy_artiglieria"/>
+      <frontierRules name="buy_aeroplano"/>
+      <frontierRules name="buy_dirigibile"/>
+      <frontierRules name="buy_corazzata"/>
+      <frontierRules name="buy_incrociatore"/>
+      <frontierRules name="buy_torpediniera"/>
+      <frontierRules name="buy_trasporto"/>
+    </productionFrontier>
+    <productionFrontier name="produzioneOttomani">
+      <frontierRules name="buy_fanteria"/>
+      <frontierRules name="buy_irregolari"/>
+      <frontierRules name="buy_artiglieria"/>
+      <frontierRules name="buy_cavalleria"/>
+      <frontierRules name="buy_corazzata"/>
+      <frontierRules name="buy_incrociatore"/>
+      <frontierRules name="buy_torpediniera"/>
+      <frontierRules name="buy_cannoniera"/>
+      <frontierRules name="buy_trasporto"/>
+    </productionFrontier>
+    <productionFrontier name="produzioneSenussi">
+      <frontierRules name="buy_guerriglieri"/>
+      <frontierRules name="buy_mehari"/>
+    </productionFrontier>
+    <playerProduction player="Italiani" frontier="produzioneItaliani"/>
+    <playerProduction player="Ottomani" frontier="produzioneOttomani"/>
+    <playerProduction player="Senussi" frontier="produzioneSenussi"/>
+  </production>
+  <attachmentList>
+    <attachment name="unitAttachment" attachTo="fanteria" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="artillerySupportable" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="bersaglieri" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="transportCost" value="1"/>
+      <option name="artillerySupportable" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="ascari" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="artillerySupportable" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="irregolari" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="artillerySupportable" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="guerriglieri" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="artillerySupportable" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="artiglieria" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="transportCost" value="2"/>
+      <option name="artillery" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="cavalleria" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="transportCost" value="2"/>
+      <option name="canBlitz" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="mehari" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="transportCost" value="2"/>
+      <option name="canBlitz" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="aeroplano" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="4"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="isAir" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="dirigibile" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="1"/>
+      <option name="isAir" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="corazzata" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="isSea" value="true"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBombard" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="incrociatore" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="isSea" value="true"/>
+      <option name="canBombard" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="torpediniera" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="isDestroyer" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="cannoniera" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="isSea" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="trasporto" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+      <option name="isSea" value="true"/>
+      <option name="transportCapacity" value="3"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="fabbrica" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+    </attachment>
+    <attachment name="unitAttachment" attachTo="campo" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+      <option name="destroyedWhenCapturedFrom" value="Ottomani:Senussi"/>
+    </attachment>
+    <attachment name="territoryEffectAttachment" attachTo="Deserto" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
+      <option name="combatDefenseEffect" value="irregolari" count="1"/>
+      <option name="combatDefenseEffect" value="guerriglieri" count="1"/>
+      <option name="combatDefenseEffect" value="mehari" count="1"/>
+    </attachment>
+    <attachment name="territoryEffectAttachment" attachTo="Gebel" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
+      <option name="combatDefenseEffect" value="irregolari" count="1"/>
+      <option name="combatDefenseEffect" value="guerriglieri" count="1"/>
+      <option name="combatDefenseEffect" value="mehari" count="1"/>
+      <option name="combatDefenseEffect" value="fanteria" count="1"/>
+      <option name="noBlitz" value="cavalleria:mehari"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Italia Centrale" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="14"/>
+      <option name="originalFactory" value="true"/>
+      <option name="capital" value="Italiani"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Italia Meridionale" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+      <option name="originalFactory" value="true"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sicilia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+      <option name="originalFactory" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sardegna" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Eritrea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="originalFactory" value="true"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Zuara" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tripoli" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Homs" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Misurata" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Gebel Nefusa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="territoryEffect" value="Gebel"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Ghadames" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="territoryEffect" value="Deserto"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sirte" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="territoryEffect" value="Deserto"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Giofra" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="territoryEffect" value="Deserto"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Fezzan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="territoryEffect" value="Deserto"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Agedabia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="territoryEffect" value="Deserto"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bengasi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Gebel Akhdar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="territoryEffect" value="Gebel"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Derna" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tobruk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Giarabub" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="territoryEffect" value="Deserto"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Gialo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="territoryEffect" value="Deserto"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Cufra" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="capital" value="Senussi"/>
+      <option name="victoryCity" value="1"/>
+      <option name="territoryEffect" value="Deserto"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Costantinopoli" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+      <option name="originalFactory" value="true"/>
+      <option name="capital" value="Ottomani"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tracia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Macedonia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Albania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="territoryEffect" value="Gebel"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Smirne" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="originalFactory" value="true"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Adalia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Anatolia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="originalFactory" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Ponto" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Armenia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="territoryEffect" value="Gebel"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Cilicia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kurdistan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="territoryEffect" value="Gebel"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Aleppo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="originalFactory" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Damasco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Gerusalemme" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Mosul" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Baghdad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="originalFactory" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Medina" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="territoryEffect" value="Deserto"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Mecca" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="territoryEffect" value="Deserto"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Asir" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="territoryEffect" value="Gebel"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Hodeida" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="originalFactory" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sana'a" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="originalFactory" value="true"/>
+      <option name="territoryEffect" value="Gebel"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Rodi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Dodecaneso" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Lesbo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Chio" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Africa Centrale" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Algeria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Austria-Ungheria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bulgaria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Caucaso Russo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Cipro" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Corsica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Creta" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Egitto" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Etiopia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Grecia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Montenegro" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Neged" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Persia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Serbia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Somalia Francese" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sudan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tunisia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="canalAttachment" attachTo="Dardanelli" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Stretti dei Dardanelli"/>
+      <option name="landTerritories" value="Tracia"/>
+    </attachment>
+    <attachment name="canalAttachment" attachTo="Mar di Marmara" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Stretti dei Dardanelli"/>
+      <option name="landTerritories" value="Tracia"/>
+    </attachment>
+    <attachment name="conditionAttachmentResistenza" attachTo="Ottomani" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="rounds" value="10-+"/>
+      <option name="alliedOwnershipTerritories" value="Tripoli:Bengasi:Derna:Tobruk:Rodi" count="1"/>
+    </attachment>
+    <attachment name="triggerAttachmentPaceDiLosanna" attachTo="Ottomani" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentResistenza"/>
+      <option name="victory" value="VITTORIA_OTTOMANA"/>
+      <option name="players" value="Ottomani:Senussi"/>
+      <option name="uses" value="1"/>
+    </attachment>
+  </attachmentList>
+  <initialize>
+    <ownerInitialize>
+      <territoryOwner territory="Italia Centrale" owner="Italiani"/>
+      <territoryOwner territory="Italia Meridionale" owner="Italiani"/>
+      <territoryOwner territory="Sicilia" owner="Italiani"/>
+      <territoryOwner territory="Sardegna" owner="Italiani"/>
+      <territoryOwner territory="Eritrea" owner="Italiani"/>
+      <territoryOwner territory="Tripoli" owner="Ottomani"/>
+      <territoryOwner territory="Zuara" owner="Ottomani"/>
+      <territoryOwner territory="Homs" owner="Ottomani"/>
+      <territoryOwner territory="Misurata" owner="Ottomani"/>
+      <territoryOwner territory="Gebel Nefusa" owner="Ottomani"/>
+      <territoryOwner territory="Ghadames" owner="Ottomani"/>
+      <territoryOwner territory="Sirte" owner="Ottomani"/>
+      <territoryOwner territory="Giofra" owner="Ottomani"/>
+      <territoryOwner territory="Fezzan" owner="Ottomani"/>
+      <territoryOwner territory="Bengasi" owner="Ottomani"/>
+      <territoryOwner territory="Gebel Akhdar" owner="Ottomani"/>
+      <territoryOwner territory="Derna" owner="Ottomani"/>
+      <territoryOwner territory="Tobruk" owner="Ottomani"/>
+      <territoryOwner territory="Agedabia" owner="Senussi"/>
+      <territoryOwner territory="Gialo" owner="Senussi"/>
+      <territoryOwner territory="Giarabub" owner="Senussi"/>
+      <territoryOwner territory="Cufra" owner="Senussi"/>
+      <territoryOwner territory="Costantinopoli" owner="Ottomani"/>
+      <territoryOwner territory="Tracia" owner="Ottomani"/>
+      <territoryOwner territory="Macedonia" owner="Ottomani"/>
+      <territoryOwner territory="Albania" owner="Ottomani"/>
+      <territoryOwner territory="Smirne" owner="Ottomani"/>
+      <territoryOwner territory="Adalia" owner="Ottomani"/>
+      <territoryOwner territory="Anatolia" owner="Ottomani"/>
+      <territoryOwner territory="Ponto" owner="Ottomani"/>
+      <territoryOwner territory="Armenia" owner="Ottomani"/>
+      <territoryOwner territory="Cilicia" owner="Ottomani"/>
+      <territoryOwner territory="Kurdistan" owner="Ottomani"/>
+      <territoryOwner territory="Aleppo" owner="Ottomani"/>
+      <territoryOwner territory="Damasco" owner="Ottomani"/>
+      <territoryOwner territory="Gerusalemme" owner="Ottomani"/>
+      <territoryOwner territory="Mosul" owner="Ottomani"/>
+      <territoryOwner territory="Baghdad" owner="Ottomani"/>
+      <territoryOwner territory="Medina" owner="Ottomani"/>
+      <territoryOwner territory="Mecca" owner="Ottomani"/>
+      <territoryOwner territory="Asir" owner="Ottomani"/>
+      <territoryOwner territory="Hodeida" owner="Ottomani"/>
+      <territoryOwner territory="Sana'a" owner="Ottomani"/>
+      <territoryOwner territory="Rodi" owner="Ottomani"/>
+      <territoryOwner territory="Dodecaneso" owner="Ottomani"/>
+      <territoryOwner territory="Lesbo" owner="Ottomani"/>
+      <territoryOwner territory="Chio" owner="Ottomani"/>
+    </ownerInitialize>
+    <unitInitialize>
+      <unitPlacement unitType="fabbrica" territory="Italia Centrale" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="fabbrica" territory="Italia Meridionale" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="fabbrica" territory="Sicilia" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="fabbrica" territory="Eritrea" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="campo" territory="Gebel Nefusa" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="campo" territory="Gebel Akhdar" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="campo" territory="Giarabub" quantity="1" owner="Senussi"/>
+      <unitPlacement unitType="campo" territory="Cufra" quantity="1" owner="Senussi"/>
+      <unitPlacement unitType="fabbrica" territory="Costantinopoli" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fabbrica" territory="Smirne" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fabbrica" territory="Anatolia" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fabbrica" territory="Aleppo" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fabbrica" territory="Baghdad" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fabbrica" territory="Hodeida" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fabbrica" territory="Sana'a" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Italia Centrale" quantity="4" owner="Italiani"/>
+      <unitPlacement unitType="artiglieria" territory="Italia Centrale" quantity="2" owner="Italiani"/>
+      <unitPlacement unitType="bersaglieri" territory="Italia Centrale" quantity="2" owner="Italiani"/>
+      <unitPlacement unitType="fanteria" territory="Italia Meridionale" quantity="6" owner="Italiani"/>
+      <unitPlacement unitType="artiglieria" territory="Italia Meridionale" quantity="2" owner="Italiani"/>
+      <unitPlacement unitType="bersaglieri" territory="Italia Meridionale" quantity="2" owner="Italiani"/>
+      <unitPlacement unitType="aeroplano" territory="Italia Meridionale" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="dirigibile" territory="Italia Meridionale" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="fanteria" territory="Sicilia" quantity="4" owner="Italiani"/>
+      <unitPlacement unitType="artiglieria" territory="Sicilia" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="bersaglieri" territory="Sicilia" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="aeroplano" territory="Sicilia" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="fanteria" territory="Sardegna" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="ascari" territory="Eritrea" quantity="4" owner="Italiani"/>
+      <unitPlacement unitType="fanteria" territory="Eritrea" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="corazzata" territory="Mare di Malta" quantity="2" owner="Italiani"/>
+      <unitPlacement unitType="incrociatore" territory="Mare di Malta" quantity="2" owner="Italiani"/>
+      <unitPlacement unitType="torpediniera" territory="Mare di Malta" quantity="2" owner="Italiani"/>
+      <unitPlacement unitType="trasporto" territory="Mare di Malta" quantity="4" owner="Italiani"/>
+      <unitPlacement unitType="corazzata" territory="Mar Ionio" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="incrociatore" territory="Mar Ionio" quantity="2" owner="Italiani"/>
+      <unitPlacement unitType="torpediniera" territory="Mar Ionio" quantity="2" owner="Italiani"/>
+      <unitPlacement unitType="trasporto" territory="Mar Ionio" quantity="3" owner="Italiani"/>
+      <unitPlacement unitType="corazzata" territory="Mar Tirreno" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="incrociatore" territory="Mar Tirreno" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="incrociatore" territory="Canale d'Otranto" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="torpediniera" territory="Canale d'Otranto" quantity="2" owner="Italiani"/>
+      <unitPlacement unitType="incrociatore" territory="Mar Rosso Meridionale" quantity="2" owner="Italiani"/>
+      <unitPlacement unitType="torpediniera" territory="Mar Rosso Meridionale" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="trasporto" territory="Mar Rosso Meridionale" quantity="1" owner="Italiani"/>
+      <unitPlacement unitType="fanteria" territory="Tripoli" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="artiglieria" territory="Tripoli" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Tripoli" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Zuara" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Homs" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Misurata" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Gebel Nefusa" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Gebel Nefusa" quantity="3" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Ghadames" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Sirte" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Fezzan" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Bengasi" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="artiglieria" territory="Bengasi" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Derna" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Derna" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Tobruk" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Gebel Akhdar" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Gebel Akhdar" quantity="3" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Costantinopoli" quantity="4" owner="Ottomani"/>
+      <unitPlacement unitType="artiglieria" territory="Costantinopoli" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="cavalleria" territory="Costantinopoli" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Tracia" quantity="3" owner="Ottomani"/>
+      <unitPlacement unitType="artiglieria" territory="Tracia" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Macedonia" quantity="3" owner="Ottomani"/>
+      <unitPlacement unitType="cavalleria" territory="Macedonia" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Albania" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Smirne" quantity="3" owner="Ottomani"/>
+      <unitPlacement unitType="artiglieria" territory="Smirne" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Anatolia" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Adalia" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Ponto" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Armenia" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="cavalleria" territory="Armenia" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Cilicia" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Kurdistan" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Aleppo" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Damasco" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="cavalleria" territory="Damasco" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Gerusalemme" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Mosul" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Baghdad" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Medina" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Medina" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Mecca" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="irregolari" territory="Asir" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Hodeida" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Sana'a" quantity="3" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Rodi" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Dodecaneso" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Lesbo" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="fanteria" territory="Chio" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="corazzata" territory="Mar di Marmara" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="incrociatore" territory="Mar di Marmara" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="torpediniera" territory="Mar di Marmara" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="trasporto" territory="Mar di Marmara" quantity="2" owner="Ottomani"/>
+      <unitPlacement unitType="cannoniera" territory="Costa Siriana" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="torpediniera" territory="Costa Siriana" quantity="1" owner="Ottomani"/>
+      <unitPlacement unitType="cannoniera" territory="Mar Rosso Centrale" quantity="3" owner="Ottomani"/>
+      <unitPlacement unitType="guerriglieri" territory="Cufra" quantity="4" owner="Senussi"/>
+      <unitPlacement unitType="mehari" territory="Cufra" quantity="2" owner="Senussi"/>
+      <unitPlacement unitType="guerriglieri" territory="Gialo" quantity="2" owner="Senussi"/>
+      <unitPlacement unitType="mehari" territory="Gialo" quantity="1" owner="Senussi"/>
+      <unitPlacement unitType="guerriglieri" territory="Giarabub" quantity="2" owner="Senussi"/>
+      <unitPlacement unitType="guerriglieri" territory="Agedabia" quantity="2" owner="Senussi"/>
+      <unitPlacement unitType="mehari" territory="Agedabia" quantity="1" owner="Senussi"/>
+    </unitInitialize>
+    <resourceInitialize>
+      <resourceGiven player="Italiani" resource="PUs" quantity="0"/>
+      <resourceGiven player="Ottomani" resource="PUs" quantity="0"/>
+      <resourceGiven player="Senussi" resource="PUs" quantity="0"/>
+    </resourceInitialize>
+  </initialize>
+  <propertyList>
+    <property name="Italiani bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Ottomani bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Senussi bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Total Victory" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Italia Total Victory VCs" value="8" editable="true">
+      <number min="1" max="12"/>
+    </property>
+    <property name="Sublime Porta Total Victory VCs" value="11" editable="true">
+      <number min="1" max="12"/>
+    </property>
+    <property name="Use Triggers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Triggered Victory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Low Luck" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Neutrals Are Impassable" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Units Repair Hits End Turn" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Naval Bombard Casualties Return Fire" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Shore Bombard Per Ground Unit Restricted" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Attacker Retreat Planes" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Partial Amphibious Retreat" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Unplaced units live when not placed" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="maxFactoriesPerTerritory" value="1" editable="false">
+      <number min="1" max="10"/>
+    </property>
+    <property name="mapName" value="guerra_italo_turca" editable="false">
+      <string/>
+    </property>
+    <property name="notes">
+      <string/>
+      <value><![CDATA[
+<h2>Guerra Italo-Turca 1911-1912</h2>
+<p>29 settembre 1911: l'Italia dichiara guerra all'Impero Ottomano per la Tripolitania e la Cirenaica.
+La flotta italiana domina il Mediterraneo, ma l'interno libico resta in mano a truppe ottomane
+guidate da ufficiali come Enver Bey e Mustafa Kemal, e alle tribù della confraternita Senussia.</p>
+<h3>Giocatori</h3>
+<ul><li><b>Italiani</b> (verde) — muove per primo.</li>
+<li><b>Ottomani</b> (rosso) e <b>Senussi</b> (marrone), alleati nella <i>Sublime Porta</i>.</li></ul>
+<h3>Condizioni di vittoria</h3>
+<ul><li><b>Italia</b>: a fine round controlla 8 città della vittoria
+(le sue 3 + Tripoli, Bengasi, Derna, Tobruk, Rodi, oppure qualunque combinazione equivalente).</li>
+<li><b>Sublime Porta</b>: alla fine del round 10 (o dopo) tiene ancora almeno una tra
+Tripoli, Bengasi, Derna, Tobruk e Rodi: l'Italia non ottiene la pace (equivale a una vittoria ottomana).
+In alternativa conquista 11 città della vittoria.</li></ul>
+<h3>Regole speciali</h3>
+<ul><li><b>Neutrali invalicabili</b>: Egitto (britannico), Tunisia, Grecia, Creta, ecc.</li>
+<li><b>Canale di Suez</b> aperto: il Mar di Levante è collegato al Mar Rosso Settentrionale.</li>
+<li><b>Dardanelli</b>: il passaggio tra Dardanelli e Mar di Marmara richiede il controllo della Tracia.</li>
+<li><b>Deserto</b>: irregolari, guerriglieri e mehari +1 in difesa.
+<b>Gebel</b> (montagne): anche la fanteria +1 in difesa; niente blitz.</li>
+<li><b>Campi e zawiya</b> (Gebel Nefusa, Gebel Akhdar, Giarabub, Cufra): producono quanto vale il territorio
+e vengono distrutti se catturati.</li>
+<li>Le corazzate hanno 2 punti ferita e si riparano a fine turno.</li></ul>
+<h3>Unità (costo / attacco / difesa / movimento)</h3>
+<table border="1" cellpadding="2">
+<tr><th>Unità</th><th>Costo</th><th>A</th><th>D</th><th>M</th><th>Chi</th></tr>
+<tr><td>fanteria</td><td>3</td><td>1</td><td>2</td><td>1</td><td>Italiani, Ottomani</td></tr><tr><td>bersaglieri</td><td>4</td><td>2</td><td>2</td><td>1</td><td>Italiani</td></tr><tr><td>ascari</td><td>2</td><td>1</td><td>1</td><td>1</td><td>Italiani</td></tr><tr><td>irregolari</td><td>2</td><td>1</td><td>1</td><td>1</td><td>Ottomani</td></tr><tr><td>guerriglieri</td><td>2</td><td>1</td><td>1</td><td>1</td><td>Senussi</td></tr><tr><td>artiglieria</td><td>4</td><td>2</td><td>2</td><td>1</td><td>Italiani, Ottomani</td></tr><tr><td>cavalleria</td><td>4</td><td>2</td><td>1</td><td>2</td><td>Ottomani</td></tr><tr><td>mehari</td><td>3</td><td>2</td><td>1</td><td>2</td><td>Senussi</td></tr><tr><td>aeroplano</td><td>7</td><td>2</td><td>1</td><td>4</td><td>Italiani</td></tr><tr><td>dirigibile</td><td>10</td><td>3</td><td>1</td><td>3</td><td>Italiani</td></tr><tr><td>corazzata</td><td>20</td><td>4</td><td>4</td><td>2</td><td>Italiani, Ottomani</td></tr><tr><td>incrociatore</td><td>12</td><td>3</td><td>3</td><td>2</td><td>Italiani, Ottomani</td></tr><tr><td>torpediniera</td><td>8</td><td>2</td><td>2</td><td>2</td><td>Italiani, Ottomani</td></tr><tr><td>cannoniera</td><td>5</td><td>1</td><td>1</td><td>2</td><td>Ottomani</td></tr><tr><td>trasporto</td><td>7</td><td>0</td><td>0</td><td>2</td><td>Italiani, Ottomani</td></tr></table>
+]]></value>
+    </property>
+  </propertyList>
+</game>
